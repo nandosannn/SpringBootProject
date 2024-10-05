@@ -17,7 +17,7 @@ public class User implements Serializable{
     private String name;
     private String email;
     private String phone;
-    private String passeword;
+    private String password;
 
     public User(){
 
@@ -28,7 +28,7 @@ public class User implements Serializable{
         this.name = name;
         this.email = email;
         this.phone = phone;
-        this.passeword = passeword;
+        this.password = passeword;
     }
 
     public Long getId() {
@@ -63,12 +63,12 @@ public class User implements Serializable{
         this.phone = phone;
     }
 
-    public String getPasseword() {
-        return passeword;
+    public String getPassword() {
+        return password;
     }
 
     public void setPasseword(String passeword) {
-        this.passeword = passeword;
+        this.password = passeword;
     }
 
     @Override
